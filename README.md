@@ -29,4 +29,13 @@ Evaluate the performance of the optimized portfolio using appropriate metrics, s
 
 # Conclusion:
 
+In the ARMA-GARCH model, the resulting expected return of 0.0036 and standard deviation of 0.0183 demonstrate a relatively higher return potential with a lower level of risk. Additionally, the positive Sharpe ratio of 0.0866 suggests a favorable risk-adjusted return.
+
+On the other hand, the sample mean-variance model, which relies on historical sample mean and covariance, yields lower expected return (0.0018) and higher standard deviation (0.0221). The negative Sharpe ratio (-0.0096) suggests a suboptimal risk-return trade-off in comparison to the ARMA-GARCH model.
+
+These results provide evidence that incorporating time series analysis, specifically the ARMA-GARCH model, can improve the risk-return profile of the portfolio. By considering the dynamics and volatility clustering present in the time series data, the ARMA-GARCH model captures more nuanced patterns and provides more accurate forecasts, resulting in enhanced portfolio optimization outcomes.
+
+It's important to note that the specific improvement and performance of the ARMA-GARCH model may vary depending on the dataset, market conditions, and the chosen parameters for the models. Careful consideration and validation of the results is necessary to ensure the suitability and robustness of the approach for different investment scenarios.
+
+
 
